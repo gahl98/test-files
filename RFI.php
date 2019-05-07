@@ -1,4 +1,5 @@
 <?php
 echo 'RFI works!!!';
-echo '¡Now Cookies' . htmlspecialchars($_COOKIE["PHPSESSID"]) . '!';
+echo '<br>';
+echo '¡Now Cookies: ' . htmlspecialchars($_COOKIE["PHPSESSID"]) . '!';
 ?>
